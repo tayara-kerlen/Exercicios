@@ -72,13 +72,13 @@
 // valor informado: 50
 // 2, 4, 6, 8... 46, 48, 50.
 
-// const valorInformado = Number(prompt("Informe um valor"));
-// let resultado = '';
+const valorInformado = Number(prompt("Informe um valor"));
+let resultado = '';
 
-// for (let i = 1; i <= valorInformado; i++) {
-//     if (i % 2 == 0) {
-//         // IF Ternário (Operador Ternário)
-//         resultado += i < valorInformado ? `${i},` : `${i}.`
+for (let i = 1; i <= valorInformado; i++) {
+    if (i % 2 == 0) {
+        // IF Ternário (Operador Ternário)
+        resultado += i < valorInformado ? `${i},` : `${i}.`
 
         // if (i < valorInformado) {
         //     resultado += `${i},`;
@@ -86,10 +86,10 @@
         // } else {
         //     resultado += `${i}.`;
         // }
-//     }
-// }
+    }
+}
 
-// console.log(resultado);
+console.log(resultado);
 
 
 
@@ -99,6 +99,3 @@
 // valor inicial: 20
 // valor final: 200
 // Resultado: 199, 197, 195... 25, 23, 21.
-
-const valorInformado = Number(prompt("Informe um valor"));
-let resultado = ''
